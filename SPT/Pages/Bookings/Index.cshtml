@@ -1,8 +1,9 @@
 ﻿@page
-@model SPT.Pages.LoginPage.IndexModel
+@model SPT.Pages.Bookings.IndexModel
 @{
-    ViewData["Title"] = "Home page";
 }
+
+
 
 <form method="post" asp-page-handler="Navigate">
     <nav>
@@ -20,46 +21,13 @@
                 <li>Help</li>
                 <li><a asp-page="/Home/Index">Home</a></li>
             </ul>
-            
+
             <button type="submit" name="redirect" value="/Index" class="button">Login</button>
         </div>
     </nav>
     <section class="section1">
-        <div class="description-container">
-            <h1>Feature power tools that is amazing</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <button type="submit" name="redirect" value="/Equipment/Index"  class="button now">Book Now!</button>
-        </div>
-        <div class="visual-container">
-            <div class="image-container"></div>
-        </div>
-    </section>
-    <section class="section2">
-        <div class="visual-container">
-            <div class="card-bg"></div>
-            <div class="card-front"></div>
-        </div>
-        <div class="description-container">
-            <h1>Your Best Value Proposition</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <button type="submit" name="redirect" value="/Equipment/Index"  class="button">Book Today!</button>
-        </div>
-    </section>
-    <section class="section3">
-        <h1>Trusted by the World’s Best Companies</h1>
-        <div class="logos-container">
-            <div class="comp-logo"></div>
-            <div class="comp-logo"></div>
-            <div class="comp-logo"></div>
-            <div class="comp-logo"></div>
-            <div class="comp-logo"></div>
-            <div class="comp-logo"></div>
+        <div class="booking">
+
         </div>
     </section>
     <footer>
@@ -104,4 +72,3 @@
         </div>
     </footer>
 </form>
-

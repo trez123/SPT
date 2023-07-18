@@ -1,0 +1,41 @@
+﻿.login-bg {
+    background-color: #F2F2F2;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
+    padding-top: 10%;
+}
+
+.login-bg h1{
+    font-size: 5vw;
+    margin: 0;
+}
+
+.login-bg h2{
+    font-size: 2vw;
+    margin: 0;
+}
+
+.login-inputs {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.login-inputs input {
+    width: 100%;
+    padding: 1vw;
+}
+
+.login-inputs button {
+    width: 100%;
+    padding: 1vw;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    background-color: #000000;
+}

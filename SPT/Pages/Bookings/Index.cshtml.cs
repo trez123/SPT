@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace SPT.Pages.LoginPage
+namespace SPT.Pages.Bookings
 {
 	public class IndexModel : PageModel
     {
